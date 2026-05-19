@@ -11,3 +11,12 @@ Distancia	  | Con SUBE registrada   | Con SUBE sin registrar
 boton.addEventListener("click", () => {
   // COMPLETAR
 });
+let suberegistrada.value = false;
+console.log(        class=
+  "montserrat-regular"
+  type="number"
+  min="0"
+  id="distancia"
+  placeholder="Ingrese los km"); // false
+let Distancia = ;
+console.log(Distancia >= 18); // Muestra: true
