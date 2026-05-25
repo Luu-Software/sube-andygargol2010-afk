@@ -15,23 +15,29 @@
   </head>
   <body>
     <header><img src="img/logo_sube.svg" alt="logo sube" /></header>
-    <h1 class="lora-bold">Cuadro Tarifario</h1>
-    <form class="montserrat-regular">
-      <label for="registrada">¿La tarjeta SUBE está registrada?</label>
-      <select class="montserrat-regular" id="registrada">
-        <option value="si">Sí</option>
-        <option value="no">No</option>
-      </select>
-      <label for="distancia">Km a recorrer</label>
-      <input
-        class="montserrat-regular"
-        type="number"
-        min="0"
-        id="distancia"
-        placeholder="Ingrese los km"
-      />
-      <div class="boton montserrat-regular" id="boton">Calcular tarifa</div>
-    </form>
-    <p class="resultado montserrat-regular" id="tarifa">(Tarifa)</p>
+      <h1 class="lora-bold">Cuadro Tarifario</h1>
+      <form class="montserrat-regular">
+        <label for="registrada">¿La tarjeta SUBE está registrada?</label>
+        <select class="montserrat-regular" id="registrada">
+          <option value="si">Sí</option>
+          <option value="no">No</option>
+          <option value="social">Social</option>
+        </select>
+        <label for="region">region</label>
+        </select class="montserrat-regular" id="registrada">
+ <option value="caba">caba</option>     
+          <option value="nacional">nacional</option>
+          <option value="bsas">buenos aires</option>
+        > 
+        <input
+          class="montserrat-regular"
+          type="number"
+          min="0"
+          id="distancia"
+          placeholder="Ingrese los km"
+        />
+        <div class="boton montserrat-regular" id="boton" onclick="calcularTarifa()">Calcular tarifa</div>
+      </form>
+      <p class="resultado montserrat-regular" id="tarifa">(Tarifa)</p>
   </body>
 </html>
